@@ -39,28 +39,16 @@
             <a href="https://www.x.com/koushik_romel/">Twitter</a>
         </div>
     </div>
-    <!-- 
-    <br>
-    <h3>Updated Linkedin Follow button</h3>
-    <style>
-        .libutton {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 7px;
-        text-align: center;
-        outline: none;
-        text-decoration: none !important;
-        color: #ffffff !important;
-        width: 200px;
-        height: 32px;
-        border-radius: 16px;
-        background-color: #0A66C2;
-        font-family: "SF Pro Text", Helvetica, sans-serif;
-        }
-    </style>
-    <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=koushikromel" target="_blank">Follow on LinkedIn</a>
-    -->
-    
+    <script>
+        (function() {
+            const currentVersion = '1.0';
+            const storedVersion = localStorage.getItem('siteVersion');
+            
+            if (!storedVersion || storedVersion !== currentVersion) {
+                localStorage.setItem('siteVersion', currentVersion);
+                window.location.reload(true);
+            }
+        })();
+    </script>
 </body>
 </html>
