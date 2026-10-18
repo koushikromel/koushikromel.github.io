@@ -4,22 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="refresh" content="2;url=https://www.linkedin.com/in/koushikromel/"> -->
-  <title>Koushik Romel | Portfolio</title>
+  <title>Koushik Romel | Backend Engineer (Python, FastAPI, Django, AWS)</title>
+  <meta name="description" content="Koushik Romel is a backend engineer with 4+ years of experience in Python, FastAPI, Django, Flask and AWS. Open to remote backend roles, full-time or contract.">
+  <meta name="author" content="Koushik Romel">
+  <meta name="theme-color" content="#02181C">
+  <link rel="canonical" href="https://koushik.online/">
   <link rel="icon" href="assets/images/favicon.ico">
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://koushik.online/">
+  <meta property="og:title" content="Koushik Romel | Backend Engineer">
+  <meta property="og:description" content="Backend engineer: Python, FastAPI, Django, Flask, AWS. Open to remote backend roles, full-time or contract.">
+  <meta property="og:site_name" content="Koushik Romel">
+  <!-- TODO(Koushik): add a 1200x630 social preview image (e.g. assets/images/og.png) and uncomment the og:image / twitter:image tags below. -->
+  <!-- <meta property="og:image" content="https://koushik.online/assets/images/og.png"> -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@koushik_romel">
+  <meta name="twitter:title" content="Koushik Romel | Backend Engineer">
+  <meta name="twitter:description" content="Backend engineer: Python, FastAPI, Django, Flask, AWS. Open to remote backend roles.">
+  <!-- <meta name="twitter:image" content="https://koushik.online/assets/images/og.png"> -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Koushik Romel",
+    "jobTitle": "Backend Engineer",
+    "url": "https://koushik.online/",
+    "email": "mailto:koushikromel@gmail.com",
+    "address": { "@type": "PostalAddress", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+    "sameAs": [
+      "https://www.linkedin.com/in/koushikromel/",
+      "https://github.com/koushikromel",
+      "https://x.com/koushik_romel"
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="assets/css/style.css">
-  <script defer src="assets/js/bootstrap.bundle.min.js"></script>
-  <style>
-    .centered {
-      display: flex;
-      align-items: center;
-      height: 100vh;
-      justify-content: center;
-      flex-direction: column;
-    }
-  </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTYG88340E"></script>
@@ -39,28 +62,191 @@
 </head>
 
 <body>
-  <div class="centered">
-    <h2>Hi, I'm Koushik Romel</h2>
-    <p>Reach Me</p>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/koushikromel/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://www.github.com/koushikromel/" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.x.com/koushik_romel/" target="_blank" rel="noopener">Twitter</a>
-      <a href="https://drive.google.com/file/d/1YuODzq3SA2LUgQ9_0uRZw-k8OPKmmrnl/view" target="_blank" rel="noopener">Resume</a>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Koushik Romel</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-  </div>
-  <script>
-    (function () {
-      const currentVersion = '1.0';
-      const storedVersion = localStorage.getItem('siteVersion');
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero wrap" id="top">
+      <p class="status"><span class="dot" aria-hidden="true"></span>Open to remote backend roles &middot; full-time or contract</p>
+      <h1>Koushik Romel</h1>
+      <p class="title">Backend Engineer &mdash; Python, FastAPI, Django, Flask, AWS</p>
+      <p class="lede">4+ years building backend services, APIs and third-party integrations for startups in fintech, e-commerce SaaS and IoT. Based in Tamil Nadu, India; working remotely with teams anywhere.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://drive.google.com/file/d/1YuODzq3SA2LUgQ9_0uRZw-k8OPKmmrnl/view" target="_blank" rel="noopener">Resume</a>
+        <a class="btn" href="mailto:koushikromel@gmail.com">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/koushikromel/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/koushikromel" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
 
-      if (!storedVersion || storedVersion !== currentVersion) {
-        localStorage.setItem('siteVersion', currentVersion);
-        window.location.reload(true);
-      }
-    })();
-  </script>
+    <!-- About -->
+    <section class="section wrap" id="about">
+      <h2>About</h2>
+      <div class="prose">
+        <p>I'm a backend developer with 4+ years of experience in Python, working mostly with Django, Flask and FastAPI. I've hosted and deployed services on AWS and GCP, including serverless functions.</p>
+        <p>I've spent my career in startups, where I've often picked up tools beyond the backend (Docker, Jenkins, Grafana, GitHub Actions) and enjoy lean teams where ownership matters. I like designing backend systems that scale, and I'm currently adding React and Next.js to my toolkit so I can contribute more to open source.</p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section wrap" id="experience">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li class="job">
+          <div class="job-head">
+            <h3>Backend Developer &middot; <span>AGAM Technologies</span></h3>
+            <p class="meta">Dec 2023 &ndash; Dec 2025 &middot; Full-time &middot; Coimbatore, India</p>
+          </div>
+          <ul>
+            <li>Developed and maintained backend microservices for client-facing fintech projects, working with the project team to ship scalable solutions.</li>
+            <li>Designed backend services primarily in Python (Flask), with FastAPI also in the stack.</li>
+            <li>Integrated third-party APIs: Leegality (document verification), IDfy (KYC) and CCAvenue (payment gateway).</li>
+            <li>Iterated quickly on features from client requirements while keeping services scalable and reliable.</li>
+          </ul>
+          <p class="tags">Python &middot; Flask &middot; FastAPI &middot; REST APIs &middot; Microservices &middot; AWS</p>
+        </li>
+        <li class="job">
+          <div class="job-head">
+            <h3>Backend Developer &middot; <span>Fluvi.com</span></h3>
+            <p class="meta">Oct 2024 &ndash; Jan 2025 &middot; Freelance &middot; Remote (Limassol, Cyprus)</p>
+          </div>
+          <ul>
+            <li>Contributed to a production SaaS application for Amazon sellers.</li>
+            <li>Worked on a FastAPI backend that ingests and aggregates sales, orders and performance metrics.</li>
+            <li>Integrated and maintained Amazon SP-API integrations, handling rate limits, auth flows and data consistency.</li>
+            <li>Contributed directly to core backend code used by real customers in a small team.</li>
+          </ul>
+          <p class="tags">Python &middot; FastAPI &middot; Amazon SP-API &middot; AWS &middot; Docker &middot; Elasticsearch</p>
+        </li>
+        <li class="job">
+          <div class="job-head">
+            <h3>Backend Developer &middot; <span>Onwords Automation</span></h3>
+            <p class="meta">Sep 2021 &ndash; Nov 2023 &middot; Full-time &middot; Coimbatore, India</p>
+          </div>
+          <ul>
+            <li>Founding backend developer, responsible for setting up and delivering full-stack applications end to end.</li>
+            <li>Built and deployed the company website, an IoT home server and internal tools (CRM, dashboards).</li>
+            <li>Managed AWS and Firebase deployments and server infrastructure.</li>
+            <li>After the first year, worked alongside frontend developers and focused on the backend.</li>
+          </ul>
+          <p class="tags">Python &middot; Django &middot; DRF &middot; AWS &middot; Firebase &middot; HTML/CSS/JS</p>
+        </li>
+      </ol>
+      <!-- TODO(Koushik): decide whether to list the Jan 2026 – present career break ("AI, Agents and SaaS") here, and how to describe it. -->
+    </section>
+
+    <!-- Selected work -->
+    <section class="section wrap" id="work">
+      <h2>Selected work</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="kicker">AGAM Technologies &middot; Fintech</p>
+          <h3>eSign, KYC and payment integrations</h3>
+          <p>Backend microservices for client fintech projects, integrating Leegality for document verification and eSign, IDfy for KYC and CCAvenue for payments. Built in Python (Flask/FastAPI) on AWS.</p>
+          <!-- TODO(Koushik): add 1-2 lines on the problem/outcome (e.g. what the flow enabled, scale, reliability work) — only real details you're allowed to share. -->
+          <p class="tags">Flask &middot; FastAPI &middot; Microservices &middot; AWS</p>
+        </article>
+        <article class="card">
+          <p class="kicker">Fluvi.com &middot; E-commerce SaaS</p>
+          <h3>Amazon SP-API data platform</h3>
+          <p>A FastAPI backend for a SaaS used by Amazon sellers, ingesting and aggregating sales, orders and performance metrics from Amazon SP-API while respecting rate limits, auth flows and data consistency.</p>
+          <!-- TODO(Koushik): add specifics you can share (e.g. ingestion approach, Elasticsearch usage, data volume) — no figures have been added. -->
+          <p class="tags">FastAPI &middot; Amazon SP-API &middot; Docker &middot; Elasticsearch &middot; AWS</p>
+        </article>
+        <article class="card">
+          <p class="kicker">Onwords Automation &middot; IoT</p>
+          <h3>IoT home server, CRM and dashboards</h3>
+          <p>As the founding backend developer, built and deployed the IoT home server, internal CRM and dashboards and the company website, and ran AWS and Firebase infrastructure.</p>
+          <!-- TODO(Koushik): describe what the home server did (devices, protocol, architecture) and any shareable outcome. -->
+          <p class="tags">Django &middot; DRF &middot; AWS &middot; Firebase</p>
+        </article>
+      </div>
+
+      <h3 class="sub">Open source</h3>
+      <div class="cards">
+        <article class="card">
+          <p class="kicker">Open source &middot; Archived</p>
+          <h3>readme-so-community</h3>
+          <p>A community continuation of readme.so, an online drag-and-drop editor for building READMEs.</p>
+          <p class="tags">Next.js &middot; React &middot; Tailwind CSS</p>
+          <p class="links"><a href="https://github.com/koushikromel/readme-so-community" target="_blank" rel="noopener">Code</a><a href="https://readme-so-community.vercel.app" target="_blank" rel="noopener">Live demo</a></p>
+        </article>
+        <article class="card">
+          <p class="kicker">Side project</p>
+          <h3>fastapi-todo</h3>
+          <p>A structured FastAPI to-do API using SQLModel and SQLAlchemy with PostgreSQL.</p>
+          <!-- TODO(Koushik): the repo's listed demo (fastapi-todo-rho.vercel.app) returns 404 — fix or redeploy it, then add a "Live demo" link here. Also consider adding a README/description to the repo. -->
+          <p class="tags">FastAPI &middot; SQLModel &middot; PostgreSQL</p>
+          <p class="links"><a href="https://github.com/koushikromel/fastapi-todo" target="_blank" rel="noopener">Code</a></p>
+        </article>
+        <article class="card">
+          <p class="kicker">Side project</p>
+          <h3>paywint-task</h3>
+          <p>A FastAPI expense API with endpoints to list expenses, filter by year and month, and get totals, using SQLModel and SQLite.</p>
+          <p class="tags">FastAPI &middot; SQLModel &middot; SQLite</p>
+          <p class="links"><a href="https://github.com/koushikromel/paywint-task" target="_blank" rel="noopener">Code</a></p>
+        </article>
+      </div>
+      <!-- TODO(Koushik): some stronger recent projects appear to be private repos. If you make any public (with a README), add a card here. -->
+    </section>
+
+    <!-- Skills -->
+    <section class="section wrap" id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Languages &amp; frameworks</h3>
+          <ul class="chips"><li>Python</li><li>FastAPI</li><li>Django</li><li>Django REST Framework</li><li>Flask</li><li>SQLModel / SQLAlchemy</li></ul>
+        </div>
+        <div>
+          <h3>Backend</h3>
+          <ul class="chips"><li>REST APIs</li><li>Microservices</li><li>Third-party integrations</li><li>Payments</li><li>KYC / eSign APIs</li><li>Amazon SP-API</li><li>Elasticsearch</li></ul>
+        </div>
+        <div>
+          <h3>Cloud &amp; tooling</h3>
+          <ul class="chips"><li>AWS</li><li>GCP</li><li>Serverless functions</li><li>Firebase</li><li>Docker</li><li>Git</li><li>GitHub Actions</li><li>Postman</li></ul>
+        </div>
+        <div>
+          <h3>Also exposed to / learning</h3>
+          <ul class="chips muted"><li>Jenkins</li><li>Grafana</li><li>React</li><li>Next.js</li></ul>
+        </div>
+      </div>
+      <h3 class="sub">Certifications &amp; education</h3>
+      <ul class="certs">
+        <li><strong>Build REST APIs with FastAPI</strong> &mdash; LinkedIn Learning, 2026</li>
+        <li><strong>React Foundations for Next.js</strong> &mdash; Vercel, 2025</li>
+        <li><strong>Python</strong> and <strong>Pandas</strong> &mdash; Kaggle, 2023</li>
+        <li><strong>B.E. Computer Science</strong> &mdash; NPR Group of Institutions, 2017&ndash;2021</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section wrap contact" id="contact">
+      <h2>Contact</h2>
+      <p class="lede">Hiring for a remote backend role, or need a contract backend engineer for Python/FastAPI work? Email is the fastest way to reach me.</p>
+      <p><a class="btn primary big" href="mailto:koushikromel@gmail.com">koushikromel@gmail.com</a></p>
+      <p class="links"><a href="https://www.linkedin.com/in/koushikromel/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/koushikromel" target="_blank" rel="noopener">GitHub</a><a href="https://x.com/koushik_romel" target="_blank" rel="noopener">X / Twitter</a><a href="https://drive.google.com/file/d/1YuODzq3SA2LUgQ9_0uRZw-k8OPKmmrnl/view" target="_blank" rel="noopener">Resume</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>&copy; <span id="year">2026</span> Koushik Romel &middot; Tamil Nadu, India &middot; Remote</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 
 </html>
